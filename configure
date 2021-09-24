@@ -1675,7 +1675,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 
-if test "${CXX}" = gcc || "${CXX}" = clang; then
+if test "${CXX}" = gcc || test "${CXX}" = clang; then
   RANDOMFIELDS_CXXFLAGS=""
 else
   RANDOMFIELDS_CXXFLAGS=""
